@@ -1,11 +1,10 @@
 year = int(input())
-leaf = 0
+leap = 0
 
 if (year % 4) == 0:
-    if (year % 100) != 0 or (year % 400) == 0:
-        leaf = 1
+    if (year % 100) == 0: 
+        if(year % 400) == 0:
+            leap = 1
     else:
-        leaf = 0
-else:
-    leaf = 0
-print(leaf)
+        leap = 1
+print(leap)
