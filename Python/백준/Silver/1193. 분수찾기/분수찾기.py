@@ -25,7 +25,7 @@ if line % 2 == 0:   #짝수 줄일 때
     up = idx
     down = line - idx + 1
 
-else:
+else:               #홀수 줄일 때
     up = line - idx + 1
     down = idx
     
