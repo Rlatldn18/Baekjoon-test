@@ -3,7 +3,6 @@ input = sys.stdin.readline
 n, k = map(int, input().split())
 arrk = list(input().split())
 
-n = int(n)
 result = 0
 def maxNum(num):
    global result
