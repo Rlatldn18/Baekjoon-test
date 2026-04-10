@@ -3,7 +3,6 @@ input = sys.stdin.readline
 n = int(input())
 
 elct = []
-elect_end = []
 for i in range(n):
     line = list(map(int, input().split()))
     elct.append(line)
